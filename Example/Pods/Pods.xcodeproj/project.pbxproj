@@ -7,109 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015557D4FB1A74A8EEABF8F5063EC9A5 /* LSSafeProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CCF0756EA516FE333863115C47BBA /* LSSafeProtector.m */; };
 		03E282BECDEF8859EDA1A76C53278839 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0417960A2237A7C4008DA6CF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 041796092237A7C4008DA6CF /* .gitkeep */; };
-		0417960B2237A7C4008DA6CF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 041796092237A7C4008DA6CF /* .gitkeep */; };
-		0417963D2237A874008DA6CF /* LSSafeProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417960E2237A874008DA6CF /* LSSafeProtector.m */; };
-		0417963E2237A874008DA6CF /* LSSafeProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417960E2237A874008DA6CF /* LSSafeProtector.m */; };
-		0417963F2237A874008DA6CF /* LSSafeProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417960F2237A874008DA6CF /* LSSafeProtector.h */; };
-		041796402237A874008DA6CF /* LSSafeProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417960F2237A874008DA6CF /* LSSafeProtector.h */; };
-		041796412237A874008DA6CF /* LSSafeProtectorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796102237A874008DA6CF /* LSSafeProtectorDefine.h */; };
-		041796422237A874008DA6CF /* LSSafeProtectorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796102237A874008DA6CF /* LSSafeProtectorDefine.h */; };
-		041796432237A874008DA6CF /* NSMutableArray+MRCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796122237A874008DA6CF /* NSMutableArray+MRCSafe.m */; };
-		041796442237A874008DA6CF /* NSMutableArray+MRCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796122237A874008DA6CF /* NSMutableArray+MRCSafe.m */; };
-		041796452237A874008DA6CF /* NSMutableArray+MRCSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796132237A874008DA6CF /* NSMutableArray+MRCSafe.h */; };
-		041796462237A874008DA6CF /* NSMutableArray+MRCSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796132237A874008DA6CF /* NSMutableArray+MRCSafe.h */; };
-		041796472237A874008DA6CF /* NSSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796152237A874008DA6CF /* NSSet+Safe.m */; };
-		041796482237A874008DA6CF /* NSSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796152237A874008DA6CF /* NSSet+Safe.m */; };
-		041796492237A874008DA6CF /* NSOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796162237A874008DA6CF /* NSOrderedSet+Safe.m */; };
-		0417964A2237A874008DA6CF /* NSOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796162237A874008DA6CF /* NSOrderedSet+Safe.m */; };
-		0417964B2237A874008DA6CF /* NSUserDefaults+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796172237A874008DA6CF /* NSUserDefaults+Safe.h */; };
-		0417964C2237A874008DA6CF /* NSUserDefaults+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796172237A874008DA6CF /* NSUserDefaults+Safe.h */; };
-		0417964D2237A874008DA6CF /* NSCache+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796182237A874008DA6CF /* NSCache+Safe.m */; };
-		0417964E2237A874008DA6CF /* NSCache+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796182237A874008DA6CF /* NSCache+Safe.m */; };
-		0417964F2237A874008DA6CF /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796192237A874008DA6CF /* NSObject+Safe.m */; };
-		041796502237A874008DA6CF /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796192237A874008DA6CF /* NSObject+Safe.m */; };
-		041796512237A874008DA6CF /* NSMutableOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961A2237A874008DA6CF /* NSMutableOrderedSet+Safe.h */; };
-		041796522237A874008DA6CF /* NSMutableOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961A2237A874008DA6CF /* NSMutableOrderedSet+Safe.h */; };
-		041796532237A874008DA6CF /* NSMutableString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961B2237A874008DA6CF /* NSMutableString+Safe.h */; };
-		041796542237A874008DA6CF /* NSMutableString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961B2237A874008DA6CF /* NSMutableString+Safe.h */; };
-		041796552237A874008DA6CF /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417961C2237A874008DA6CF /* NSMutableArray+Safe.m */; };
-		041796562237A874008DA6CF /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417961C2237A874008DA6CF /* NSMutableArray+Safe.m */; };
-		041796572237A874008DA6CF /* NSNotificationCenter+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961D2237A874008DA6CF /* NSNotificationCenter+Safe.h */; };
-		041796582237A874008DA6CF /* NSNotificationCenter+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961D2237A874008DA6CF /* NSNotificationCenter+Safe.h */; };
-		041796592237A874008DA6CF /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417961E2237A874008DA6CF /* NSString+Safe.m */; };
-		0417965A2237A874008DA6CF /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417961E2237A874008DA6CF /* NSString+Safe.m */; };
-		0417965B2237A874008DA6CF /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961F2237A874008DA6CF /* NSDictionary+Safe.h */; };
-		0417965C2237A874008DA6CF /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417961F2237A874008DA6CF /* NSDictionary+Safe.h */; };
-		0417965D2237A874008DA6CF /* NSMutableAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796202237A874008DA6CF /* NSMutableAttributedString+Safe.m */; };
-		0417965E2237A874008DA6CF /* NSMutableAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796202237A874008DA6CF /* NSMutableAttributedString+Safe.m */; };
-		0417965F2237A874008DA6CF /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796212237A874008DA6CF /* NSMutableDictionary+Safe.m */; };
-		041796602237A874008DA6CF /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796212237A874008DA6CF /* NSMutableDictionary+Safe.m */; };
-		041796612237A874008DA6CF /* NSData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796222237A874008DA6CF /* NSData+Safe.m */; };
-		041796622237A874008DA6CF /* NSData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796222237A874008DA6CF /* NSData+Safe.m */; };
-		041796632237A874008DA6CF /* NSMutableData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796232237A874008DA6CF /* NSMutableData+Safe.h */; };
-		041796642237A874008DA6CF /* NSMutableData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796232237A874008DA6CF /* NSMutableData+Safe.h */; };
-		041796652237A874008DA6CF /* NSAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796242237A874008DA6CF /* NSAttributedString+Safe.m */; };
-		041796662237A874008DA6CF /* NSAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796242237A874008DA6CF /* NSAttributedString+Safe.m */; };
-		041796672237A874008DA6CF /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796252237A874008DA6CF /* NSArray+Safe.h */; };
-		041796682237A874008DA6CF /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796252237A874008DA6CF /* NSArray+Safe.h */; };
-		041796692237A874008DA6CF /* NSMutableSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796262237A874008DA6CF /* NSMutableSet+Safe.m */; };
-		0417966A2237A874008DA6CF /* NSMutableSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796262237A874008DA6CF /* NSMutableSet+Safe.m */; };
-		0417966B2237A874008DA6CF /* NSObject+SafeSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796272237A874008DA6CF /* NSObject+SafeSwizzle.h */; };
-		0417966C2237A874008DA6CF /* NSObject+SafeSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796272237A874008DA6CF /* NSObject+SafeSwizzle.h */; };
-		0417966D2237A874008DA6CF /* NSObject+KVOSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796282237A874008DA6CF /* NSObject+KVOSafe.m */; };
-		0417966E2237A874008DA6CF /* NSObject+KVOSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796282237A874008DA6CF /* NSObject+KVOSafe.m */; };
-		0417966F2237A874008DA6CF /* NSMutableOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796292237A874008DA6CF /* NSMutableOrderedSet+Safe.m */; };
-		041796702237A874008DA6CF /* NSMutableOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796292237A874008DA6CF /* NSMutableOrderedSet+Safe.m */; };
-		041796712237A874008DA6CF /* NSObject+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962A2237A874008DA6CF /* NSObject+Safe.h */; };
-		041796722237A874008DA6CF /* NSObject+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962A2237A874008DA6CF /* NSObject+Safe.h */; };
-		041796732237A874008DA6CF /* NSCache+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962B2237A874008DA6CF /* NSCache+Safe.h */; };
-		041796742237A874008DA6CF /* NSCache+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962B2237A874008DA6CF /* NSCache+Safe.h */; };
-		041796752237A874008DA6CF /* NSOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962C2237A874008DA6CF /* NSOrderedSet+Safe.h */; };
-		041796762237A874008DA6CF /* NSOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962C2237A874008DA6CF /* NSOrderedSet+Safe.h */; };
-		041796772237A874008DA6CF /* NSUserDefaults+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417962D2237A874008DA6CF /* NSUserDefaults+Safe.m */; };
-		041796782237A874008DA6CF /* NSUserDefaults+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417962D2237A874008DA6CF /* NSUserDefaults+Safe.m */; };
-		041796792237A874008DA6CF /* NSSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962E2237A874008DA6CF /* NSSet+Safe.h */; };
-		0417967A2237A874008DA6CF /* NSSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962E2237A874008DA6CF /* NSSet+Safe.h */; };
-		0417967B2237A874008DA6CF /* NSString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962F2237A874008DA6CF /* NSString+Safe.h */; };
-		0417967C2237A874008DA6CF /* NSString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417962F2237A874008DA6CF /* NSString+Safe.h */; };
-		0417967D2237A874008DA6CF /* NSNotificationCenter+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796302237A874008DA6CF /* NSNotificationCenter+Safe.m */; };
-		0417967E2237A874008DA6CF /* NSNotificationCenter+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796302237A874008DA6CF /* NSNotificationCenter+Safe.m */; };
-		0417967F2237A874008DA6CF /* NSMutableArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796312237A874008DA6CF /* NSMutableArray+Safe.h */; };
-		041796802237A874008DA6CF /* NSMutableArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796312237A874008DA6CF /* NSMutableArray+Safe.h */; };
-		041796812237A874008DA6CF /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796322237A874008DA6CF /* NSMutableString+Safe.m */; };
-		041796822237A874008DA6CF /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796322237A874008DA6CF /* NSMutableString+Safe.m */; };
-		041796832237A874008DA6CF /* NSMutableDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796332237A874008DA6CF /* NSMutableDictionary+Safe.h */; };
-		041796842237A874008DA6CF /* NSMutableDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796332237A874008DA6CF /* NSMutableDictionary+Safe.h */; };
-		041796852237A874008DA6CF /* NSMutableAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796342237A874008DA6CF /* NSMutableAttributedString+Safe.h */; };
-		041796862237A874008DA6CF /* NSMutableAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796342237A874008DA6CF /* NSMutableAttributedString+Safe.h */; };
-		041796872237A874008DA6CF /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796352237A874008DA6CF /* NSDictionary+Safe.m */; };
-		041796882237A874008DA6CF /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796352237A874008DA6CF /* NSDictionary+Safe.m */; };
-		041796892237A874008DA6CF /* NSObject+KVOSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796362237A874008DA6CF /* NSObject+KVOSafe.h */; };
-		0417968A2237A874008DA6CF /* NSObject+KVOSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796362237A874008DA6CF /* NSObject+KVOSafe.h */; };
-		0417968B2237A874008DA6CF /* NSObject+SafeSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796372237A874008DA6CF /* NSObject+SafeSwizzle.m */; };
-		0417968C2237A874008DA6CF /* NSObject+SafeSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796372237A874008DA6CF /* NSObject+SafeSwizzle.m */; };
-		0417968D2237A875008DA6CF /* NSMutableSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796382237A874008DA6CF /* NSMutableSet+Safe.h */; };
-		0417968E2237A875008DA6CF /* NSMutableSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 041796382237A874008DA6CF /* NSMutableSet+Safe.h */; };
-		0417968F2237A875008DA6CF /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796392237A874008DA6CF /* NSArray+Safe.m */; };
-		041796902237A875008DA6CF /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 041796392237A874008DA6CF /* NSArray+Safe.m */; };
-		041796912237A875008DA6CF /* NSAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417963A2237A874008DA6CF /* NSAttributedString+Safe.h */; };
-		041796922237A875008DA6CF /* NSAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417963A2237A874008DA6CF /* NSAttributedString+Safe.h */; };
-		041796932237A875008DA6CF /* NSMutableData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417963B2237A874008DA6CF /* NSMutableData+Safe.m */; };
-		041796942237A875008DA6CF /* NSMutableData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417963B2237A874008DA6CF /* NSMutableData+Safe.m */; };
-		041796952237A875008DA6CF /* NSData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417963C2237A874008DA6CF /* NSData+Safe.h */; };
-		041796962237A875008DA6CF /* NSData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0417963C2237A874008DA6CF /* NSData+Safe.h */; };
 		056354E3049457613A27C69AC1A9FC1D /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = D23BC3A3A95CE0E0D9D4237760C716E8 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06832F180B6A7B04C29DDB685A1A017F /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		077D5D5968E669C8326A3B10D5F76446 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D87B9B77C0C44AA9110F83844B1744F /* UIImage+Compare.m */; };
 		0A11700CB92262CDFCBC26AB61E16336 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C44DE5086913DD326C51662FC8C143D /* NSObject+KVOSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 70485A91482BC9F753AF52746DEBB0D0 /* NSObject+KVOSafe.m */; };
+		0E284D61D966F3A83568447C57843296 /* NSSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 844B3BF7FE5A9DF22038938F22DD2DCA /* NSSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7CA1B88DE9E607EA790E4A52113330 /* NSOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD33884CF0AD312224F38AF6A41F72A /* NSOrderedSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8F741269DE066995E40D4ED0A147AF /* NSMutableAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A406AB0BA12EF10F507A6F585B1509C /* NSMutableAttributedString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EE8E297B6B3CA64142C619B620FEE24 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D6312E70C81D223D771C09BD2E13EA /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FBA795FC2A89E5242E4E80955497E67 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FFF5AD7F3D2C5DF72CCBB9784A78F41 /* ZKNSafeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B188BF04ACB58FBA6FD5684DFB5B8E /* ZKNSafeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		124CD147F0C1217D77522B3AAEA6B839 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1263D4201D9449CAC966164013833ED3 /* NSMutableSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF43E7D73A3F8FBBEA9964DC60EDD8A /* NSMutableSet+Safe.m */; };
+		13B67378EACB615102AB59D3AB58A546 /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 357C686C9EB8DA6594701254B9C26832 /* NSDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		144E40108AA47E359951BA02C3FDA1FD /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B355360743A0B543ACB3EAE10842E3 /* Expecta+Snapshots-dummy.m */; };
 		15D7377E08BEC23052AEF4CAEFE881FE /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */; };
+		162B3B379A9DD903A5FFBD55C98112F0 /* NSMutableDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD3EB438FDFF98A5EA87097D3ACCF5D /* NSMutableDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		193C8A066A8D88139203F5DAD96C7E55 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B5844CDB0272CFB390FBC66DC5CDAC8 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353E8986B3A27945CF13AA8DC0C180B /* Specta-dummy.m */; };
 		1CF936C314F4C89F42E44AB293FB13B1 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,10 +38,15 @@
 		25B4429FE94E27550D246C79591DE057 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E61F0C06E6807EE9DB324F266909BED /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2634E930A3621288B2D589FB6C461637 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */; };
 		266101E436B84B6236A0EA1158967931 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2724594906EAE129D565E9EE15716434 /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8383B75C104F3A0BDC396058C14ED907 /* NSMutableString+Safe.m */; };
 		29F7EA11B1ABD03B924141E979134962 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2CC99D0DFA296D397EA649B209DD7E00 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CF7DE9C056A1988D40332727241948E /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC6CC93C305C08215AC9EB233482C3D /* NSString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF7C2722DDE8BA9FAE98BC2401FC90D /* NSString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6923A6AE49C0F33D31278C7D8E35A3 /* NSObject+KVOSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = CE804E22B5FF80CCD570E381179BB9B6 /* NSObject+KVOSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30FC74D1EACB36B1409B7CA1EEC46011 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31E1FE777CC6775814626000D182D4F1 /* NSMutableArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 238995DF1D754899B12396625D57513C /* NSMutableArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FA5A719847E7E6BD5113F985BF3D87 /* ZKNSafeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D930E29E1AF6D38AD06D157B3BBDA833 /* ZKNSafeKit-dummy.m */; };
 		32511CB0AD924E8A2B60EE86D1ED3AAB /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		33B38B6C63DD027A34FB9F9E57EEB228 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15181A2A90AA8A9F24D97664729A1B2 /* SwiftSupport.swift */; };
 		35C49A7BBE05989B52515E7F9B43E14C /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */; };
@@ -134,6 +54,7 @@
 		391224DFFBE29539246986F133DEDAD9 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		391D30E86EB1ABA230F82483A4963749 /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */; };
 		3AE244C4463F61FCE6657965A2241E2D /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D1A0E9BD4DDFBC87E078DEC833A16 /* UIImage+Diff.m */; };
+		3AF2C534EC07A7A22AFE287AA52202FD /* NSMutableString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 449E6484EA4FF38F678AE6D316EC3E47 /* NSMutableString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B3A57407FAAFFAD9A33BCEF28860292 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BFE234EC7697E100C9274B1B06F2BDC /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3CC050D60DC770FA8183BB88F0F7E6BA /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -146,6 +67,7 @@
 		472977BCCF7F20AAAE40E3FF411745F6 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		48E1ECD55D5037DC9AAF4F318AADA86D /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		48EDEE13582595D864DDEFBE984EA863 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D27FAC690645A9419ECD762E2F29A6E /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A58A7F04AFEADBE72DC797C833EF4B /* NSMutableArray+Safe.m */; };
 		5085A67111655F9D3665C86865AD3F95 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67874FAF22E123BEC8BAB08F73110FB9 /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5185DB2DD1838C6D4B2A4D7E6E728D11 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		51C225FD02B5799367FAB3F3722D23D2 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
@@ -162,16 +84,21 @@
 		5C600EC03D65A0C203700F6608C96147 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F336ECC66909E2FC05C8E3D376CF12 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D69B6F9F3584787DE04B06C30626982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
 		5DF1964D0239E63BE1B0E3571BC18DA6 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E52104EDDDB4CB47D34E5682B901448 /* NSMutableOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = F17F24A6C8A9B5DCD2537BB73763C897 /* NSMutableOrderedSet+Safe.m */; };
 		5EACBE12AE5EDE03F34B29A300201F57 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7DDD4A7CE0636458E013320B3DCFC2 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFE1B7BDFD938E845462FDB2DAA9E8F /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6054BD43480940CC50A56889A10DDF63 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = D148E142A756A0CD8BA055B657862814 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61BA4E9E1A414FA5BD7466F4CE109ECF /* ZKNSafeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC4CFA78FD4D51779BF71258959A2DE /* ZKNSafeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A87502CDBC739CC0BA6FEF1AA00AF1 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		67538739C74EEC569177E7F8FEEF4B2F /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		682D845323DA60509F0A14880290C1AA /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68AA21839015D3EA502D5FB3AA887BC3 /* NSAttributedString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 1268E708D09CEB7CD6ED6837824B8921 /* NSAttributedString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6907616830BA23BDCCFC0E4EC07D2555 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
 		6D0922F29FA9CD40EAFB999CCCFA4D2A /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EEFA97D555C4F0BEF6812C6861AE26C /* ZKNSafeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F37361E52EBE2B2B9980475E2730391 /* ZKNSafeKit-dummy.m */; };
 		6F1120BC1402EF14E59B0E2C777D2626 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7314FE77D9048848E030F48F18FAD127 /* NSObject+SafeSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D3A93CB3E10F7A0BB9ED40BFA90BE8 /* NSObject+SafeSwizzle.m */; };
+		735174B2A121A8702FF1E65A77989B1F /* NSMutableAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF613D25D2AC8AE258518E21E468BAA /* NSMutableAttributedString+Safe.m */; };
+		73D91C94D0120E75B0B0CAC2B066CD6C /* NSSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB656534F081D5241975FE9FB2F001B /* NSSet+Safe.m */; };
 		74364F1D7FF4CCFA43591F298D79AF9B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F787B4263348644844F9D18CCBA4A124 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		775761A31D2D7E9CEF8A03306991EB0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E374B62EF05C4130D7603FBDFCA77C /* UIKit.framework */; };
 		7B4AE3987A6C20B9E8F351420028AE63 /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -180,30 +107,43 @@
 		840ACC0CB8BF00C73EDC620348128D5D /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84511A816E6B0605FA1B392274C4CA8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BB959D0915A702E37F176B68E67BA /* XCTest.framework */; };
 		883F09E4B30AE2AAA1092AF10CA64214 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B687B31303350BF35C50AFB46E73A64 /* NSData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C26F7F2FABCB1DC01F3BB6C57612B1A /* NSData+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC4EF389C423E5457EC0E4A644A6DA2 /* LSSafeProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 062CC07DD67F81DE0B25C93168F93013 /* LSSafeProtector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BCD160FA5BCE765080AED37012D72F5 /* Pods-ZKNSafeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC79F06D6DDC36042196CC91A87371CB /* Pods-ZKNSafeKit_Example-dummy.m */; };
 		8D2CFDA1F45C7258DBFCAB55DE5433FF /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E639466C74866723DD7DAB3CE113F82 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8E67BCDB6B8291FE0EDB183FEB68F9B2 /* Pods-ZKNSafeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2451661EA581181D763BFB31165ED2 /* Pods-ZKNSafeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96E9052DC79E6176584B28D81E0339AD /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9775FAB242E9761A9927B93E3C817E14 /* NSMutableSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9B05DC933B3D09A820B28C119AA255 /* NSMutableSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97A1FF752E4F0D09B20310B241721497 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */; };
 		9AB965BED27FE0515A0116C1BFA01B8A /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E2F687FF251B68BB8AE538EE5D4BCA5 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0003F81FFC9834B84EE95BC4E4B6192 /* NSAttributedString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F5B284C53C0B42CBC5E3E755483F2 /* NSAttributedString+Safe.m */; };
 		A0404E9CB88F71789F53FF9B14C89EEC /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A1B183D2B801214FAC3441DCBF58CE81 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A1FA7E35881D28527DCE81EA839D231D /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */; };
 		A2D20465FE7F52900E2E4F2161A998A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
+		A358CB7CD021B0465D016AD05617BBE7 /* NSMutableData+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D24CAB680C23EB6A17D1E9A557D2CAA /* NSMutableData+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5FE438484CE0482F8CC61C1EF501A90 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACEC48FEB5CF151011DDB5062FACC60E /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8D6A63396278C83662A4A773E6E6E /* NSString+Safe.m */; };
 		AD48F8E041D63EA1C8780696C63861C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
+		ADA6D200F25786B7D5209C57621BD2F4 /* NSObject+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB3A8015FF2D056481E21BC0C8C9EA7 /* NSObject+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF04DF96A5FF8523D764F8057DFCE0D4 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B28B1831BE82D1985846CB46CECD9B2F /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D24C93A44A823E785EE91D78394D63B9 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B45533D8BB5B7B192BEED8EF0E9366FF /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4855D00243BAB6EE575F4A8A81EBD02 /* NSObject+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 885675BB1EBA7831204027423E0A481D /* NSObject+Safe.m */; };
+		B4E3939AB7A7B8A3EFD21E83006C30A4 /* NSData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AA6FD82C8B1F23D92ACC1E1F51B689 /* NSData+Safe.m */; };
+		B50FB8420A5549ED7430C69C2C5FB3C0 /* NSCache+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A2537DAB4E0FAD7CE8EF04289537 /* NSCache+Safe.m */; };
 		B517D825C949BE18C295F8E95ED1A888 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */; };
 		B6C2455D113AD5144615C2C2CB3CDBAA /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71CFF987A81E7563E8C0A3B79361551 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B7834F3735F7B8306D35301B43C4785B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BB959D0915A702E37F176B68E67BA /* XCTest.framework */; };
+		B7C1A20E6E89585429695E3E0E1D8D73 /* NSMutableData+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E875E386FB74BA8FECF4EAC207F07 /* NSMutableData+Safe.m */; };
+		B803DC6F9F7E030045DFA3E54B448E6D /* NSCache+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D72E438EE0DA70B0037377721AC222 /* NSCache+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DC074C0A5E2AB6D8A9F626D83279E5 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6EB09C723029D84BC3E46F45A29B04 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB0CB663D6A6E231499DD85581DF6396 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C420A50644FEC1E4088D2A21B69600 /* Expecta-dummy.m */; };
+		BB503F7F8850BA2791699C1A9B18465C /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 94161AF02B2AA49C111AFFEA0C2FA8DF /* NSMutableDictionary+Safe.m */; };
 		BC60DBAF11374CDC74B89A88A3E133D8 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BEA613ED257E43C93CDB8AB1702D2EB7 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BEE252195CA6970C2DBBFCC808F1EB77 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -216,9 +156,12 @@
 		C54F98C781BF611F6E3250012115F3B5 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D7D67B8190C8E46DBE30950EBDEA6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C76B96DE85F8868AE17330DB6E17D052 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7BB4D08D55BEB7DD8D02867E0FD7F0C /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DC4763A04739FB14DFA595EE0C4E6B /* LSSafeProtectorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA5CFB76194C27A54D20B3447EC999E /* LSSafeProtectorDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C896EB27A6B4544410CD882B21D1204D /* Pods-ZKNSafeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09E69716222BD5822DA6F4EBEAD07E /* Pods-ZKNSafeKit_Tests-dummy.m */; };
 		CC3C87ED5D4117F80FA2169BB15F3F97 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */; };
 		CC49249AC66AAE89EB125A4D5B03AA19 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D32EB42D818B38915D83A017A5695EA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCF7D531500FFF8EB779B549E2F3AB8E /* NSMutableOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A6201D5F3D57F715D3541375C978E4 /* NSMutableOrderedSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD75B8EC37ECB8A18937C984CACD987E /* NSUserDefaults+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3FF5349A735D479F8529937F19BE3F /* NSUserDefaults+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1BB16AB618ACB5E36DAD4FFE51648E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
 		D330E39C1FBAACEFA743485855A4DFE7 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46363C6BEA029C05D489F9C3CA03986 /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
@@ -226,21 +169,31 @@
 		D8B14DF2E9AA1FD069A42D8AAE2D08D0 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D8FEAC8AD9595D17389E7D5902CABBC4 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA53A3F2A637E8AD9EB8AA09303189AC /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC51A65D3C8E8B18343234095D67E901 /* NSUserDefaults+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD09D2F5CFD7E518249B83EC1DFD191 /* NSUserDefaults+Safe.m */; };
+		DC83F58241CE4FF9225CCD1D36F5402D /* NSOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9F5FAFE7E974B63EAFF194BE471F0 /* NSOrderedSet+Safe.m */; };
 		DC9FC599245DC1C6C7A26AA4AC1457A8 /* Pods-ZKNSafeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C05766773F3486DB691312614EA1317C /* Pods-ZKNSafeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE64E7EDAECA56A3F2FC108398EB5953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
+		E10726524A13AF6434984E7068F11897 /* NSMutableArray+MRCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 320D4AAD118BA60FD9AE28721C8BCBE4 /* NSMutableArray+MRCSafe.m */; };
+		E3C1A6F5B4A03592D387F377CA45AFC5 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F81BBAD0D88C7A1B209A58F4BE0CA /* NSDictionary+Safe.m */; };
 		E574585EBB4397A6753797AC29051BD9 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		E8218A174E16D0A420402A08834AAC10 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EB28DF6368F6CD3CC5846625AA15025F /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */; };
 		ECEBEABB9287A1F75C35EB53A8420A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */; };
 		ECF5357502D0061CEDD0295371BE2EEC /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFCB6FDA6FEEEAC9D3F72E99C78B8A35 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F14AC81490D53F6626A3565310477A99 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DD14885D4292E6CBA62B2989E2614C /* NSArray+Safe.m */; };
+		F18A1A9B10F5E68ABC64CDFA9FEBD663 /* NSObject+SafeSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDA29E990BC401BE854AA8B45BF1338 /* NSObject+SafeSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2220C95DBBC7CD328870FB20C9721E5 /* NSNotificationCenter+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F448A05F8449D7C70873792A3A78D /* NSNotificationCenter+Safe.m */; };
 		F277BF3199523EC4970A507D0C76657B /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F35BB8971200A33E01F104931DE4DA9B /* NSMutableArray+MRCSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 329F5F44F880EFFD15D7E60AF86D8DFB /* NSMutableArray+MRCSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3AF77A1A09B2E6105EDB974DE5F01F5 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F59EACDB19FDF13048312ABDA584F415 /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = B064DA4B55649A7CECB7ABEE0B8577B6 /* NSArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6902C3C0030C6938C8E7EDEE8D1D3A2 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6BA14E3E5C97B09C234CD09F3169A4F /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6C52D9786815997D907476A546702F5 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F8F60CCD97E9ADFD5BF59CD943650186 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9ECA629E6DDF09522164DEE99A4D010 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BB959D0915A702E37F176B68E67BA /* XCTest.framework */; };
+		F9F689E0D902E6029C0A1B6AA780433D /* NSNotificationCenter+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0C0F99CFD077BE19615AB0496B19FD /* NSNotificationCenter+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1F79CAD82CE83305CCFC20657F75F7 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FE13365A2161BE8D1874A37087A89A7B /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */; };
 		FEC4C075398F9A37001F39EEE2157168 /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,52 +270,7 @@
 /* Begin PBXFileReference section */
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		03E5B7234B07F25C9ABA9B88E97BB716 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
-		041796092237A7C4008DA6CF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		0417960E2237A874008DA6CF /* LSSafeProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSafeProtector.m; sourceTree = "<group>"; };
-		0417960F2237A874008DA6CF /* LSSafeProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSafeProtector.h; sourceTree = "<group>"; };
-		041796102237A874008DA6CF /* LSSafeProtectorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSafeProtectorDefine.h; sourceTree = "<group>"; };
-		041796122237A874008DA6CF /* NSMutableArray+MRCSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MRCSafe.m"; sourceTree = "<group>"; };
-		041796132237A874008DA6CF /* NSMutableArray+MRCSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MRCSafe.h"; sourceTree = "<group>"; };
-		041796152237A874008DA6CF /* NSSet+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Safe.m"; sourceTree = "<group>"; };
-		041796162237A874008DA6CF /* NSOrderedSet+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+Safe.m"; sourceTree = "<group>"; };
-		041796172237A874008DA6CF /* NSUserDefaults+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Safe.h"; sourceTree = "<group>"; };
-		041796182237A874008DA6CF /* NSCache+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+Safe.m"; sourceTree = "<group>"; };
-		041796192237A874008DA6CF /* NSObject+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Safe.m"; sourceTree = "<group>"; };
-		0417961A2237A874008DA6CF /* NSMutableOrderedSet+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+Safe.h"; sourceTree = "<group>"; };
-		0417961B2237A874008DA6CF /* NSMutableString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
-		0417961C2237A874008DA6CF /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
-		0417961D2237A874008DA6CF /* NSNotificationCenter+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Safe.h"; sourceTree = "<group>"; };
-		0417961E2237A874008DA6CF /* NSString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
-		0417961F2237A874008DA6CF /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
-		041796202237A874008DA6CF /* NSMutableAttributedString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Safe.m"; sourceTree = "<group>"; };
-		041796212237A874008DA6CF /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
-		041796222237A874008DA6CF /* NSData+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Safe.m"; sourceTree = "<group>"; };
-		041796232237A874008DA6CF /* NSMutableData+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Safe.h"; sourceTree = "<group>"; };
-		041796242237A874008DA6CF /* NSAttributedString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Safe.m"; sourceTree = "<group>"; };
-		041796252237A874008DA6CF /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
-		041796262237A874008DA6CF /* NSMutableSet+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+Safe.m"; sourceTree = "<group>"; };
-		041796272237A874008DA6CF /* NSObject+SafeSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeSwizzle.h"; sourceTree = "<group>"; };
-		041796282237A874008DA6CF /* NSObject+KVOSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOSafe.m"; sourceTree = "<group>"; };
-		041796292237A874008DA6CF /* NSMutableOrderedSet+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+Safe.m"; sourceTree = "<group>"; };
-		0417962A2237A874008DA6CF /* NSObject+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Safe.h"; sourceTree = "<group>"; };
-		0417962B2237A874008DA6CF /* NSCache+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+Safe.h"; sourceTree = "<group>"; };
-		0417962C2237A874008DA6CF /* NSOrderedSet+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+Safe.h"; sourceTree = "<group>"; };
-		0417962D2237A874008DA6CF /* NSUserDefaults+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Safe.m"; sourceTree = "<group>"; };
-		0417962E2237A874008DA6CF /* NSSet+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Safe.h"; sourceTree = "<group>"; };
-		0417962F2237A874008DA6CF /* NSString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
-		041796302237A874008DA6CF /* NSNotificationCenter+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Safe.m"; sourceTree = "<group>"; };
-		041796312237A874008DA6CF /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
-		041796322237A874008DA6CF /* NSMutableString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
-		041796332237A874008DA6CF /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
-		041796342237A874008DA6CF /* NSMutableAttributedString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Safe.h"; sourceTree = "<group>"; };
-		041796352237A874008DA6CF /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
-		041796362237A874008DA6CF /* NSObject+KVOSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOSafe.h"; sourceTree = "<group>"; };
-		041796372237A874008DA6CF /* NSObject+SafeSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeSwizzle.m"; sourceTree = "<group>"; };
-		041796382237A874008DA6CF /* NSMutableSet+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+Safe.h"; sourceTree = "<group>"; };
-		041796392237A874008DA6CF /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
-		0417963A2237A874008DA6CF /* NSAttributedString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Safe.h"; sourceTree = "<group>"; };
-		0417963B2237A874008DA6CF /* NSMutableData+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Safe.m"; sourceTree = "<group>"; };
-		0417963C2237A874008DA6CF /* NSData+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Safe.h"; sourceTree = "<group>"; };
+		062CC07DD67F81DE0B25C93168F93013 /* LSSafeProtector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSSafeProtector.h; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		0A09E69716222BD5822DA6F4EBEAD07E /* Pods-ZKNSafeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKNSafeKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -372,33 +280,44 @@
 		0BB3663C8403AB79ABE71A71DD84DFBF /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		0D32EB42D818B38915D83A017A5695EA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		0DB656534F081D5241975FE9FB2F001B /* NSSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Safe.m"; sourceTree = "<group>"; };
+		1268E708D09CEB7CD6ED6837824B8921 /* NSAttributedString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Safe.h"; sourceTree = "<group>"; };
 		12E93B0B83A75F2E5D800EF5159598B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15710D8194F41FF763BECEE6C1AA567F /* ZKNSafeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKNSafeKit.modulemap; sourceTree = "<group>"; };
 		158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
+		19A58A7F04AFEADBE72DC797C833EF4B /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
 		19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		1A406AB0BA12EF10F507A6F585B1509C /* NSMutableAttributedString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Safe.h"; sourceTree = "<group>"; };
 		1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
-		1D1136576E440FEB3071B3194E85CC95 /* Pods_ZKNSafeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKNSafeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD3EB438FDFF98A5EA87097D3ACCF5D /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		1D1136576E440FEB3071B3194E85CC95 /* Pods_ZKNSafeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKNSafeKit_Tests.framework; path = "Pods-ZKNSafeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8E875E386FB74BA8FECF4EAC207F07 /* NSMutableData+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Safe.m"; sourceTree = "<group>"; };
 		222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		2353E8986B3A27945CF13AA8DC0C180B /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		238995DF1D754899B12396625D57513C /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
 		259A7EF4AA8D3200E74E04433EE73923 /* Pods-ZKNSafeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKNSafeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25A6201D5F3D57F715D3541375C978E4 /* NSMutableOrderedSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+Safe.h"; sourceTree = "<group>"; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		28E7042C06221EEF5077593A3E404143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29B3FB03DB634DDB67B8B521E77A3726 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298379E602322BD8B32A9AAD6E3AAE2A /* ZKNSafeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZKNSafeKit.modulemap; sourceTree = "<group>"; };
+		29B3FB03DB634DDB67B8B521E77A3726 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF43E7D73A3F8FBBEA9964DC60EDD8A /* NSMutableSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+Safe.m"; sourceTree = "<group>"; };
 		2B0529E4A817BCF5BF22ADA77866D0B7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		2D87B9B77C0C44AA9110F83844B1744F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		2E83791F060ACAA00EB81B7D525DBBA0 /* ZKNSafeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNSafeKit-prefix.pch"; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
-		2F37361E52EBE2B2B9980475E2730391 /* ZKNSafeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKNSafeKit-dummy.m"; sourceTree = "<group>"; };
 		306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
-		3221E805A58371CC98AD3A32E3CB2389 /* Pods_ZKNSafeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKNSafeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320D4AAD118BA60FD9AE28721C8BCBE4 /* NSMutableArray+MRCSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MRCSafe.m"; sourceTree = "<group>"; };
+		3221E805A58371CC98AD3A32E3CB2389 /* Pods_ZKNSafeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKNSafeKit_Example.framework; path = "Pods-ZKNSafeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329F5F44F880EFFD15D7E60AF86D8DFB /* NSMutableArray+MRCSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MRCSafe.h"; sourceTree = "<group>"; };
 		33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		34B355360743A0B543ACB3EAE10842E3 /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
-		361482D9BD5A2FCA82F485A81D839734 /* ZKNSafeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZKNSafeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		357C686C9EB8DA6594701254B9C26832 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
 		386A05BAD15803FB1661E6A17E80874C /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		3921A0EBD37D86EE41522ECC3A174E6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -409,13 +328,17 @@
 		3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		3F8F448A05F8449D7C70873792A3A78D /* NSNotificationCenter+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Safe.m"; sourceTree = "<group>"; };
+		4201EED9669353F1B3213C4300947E06 /* ZKNSafeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZKNSafeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
+		449E6484EA4FF38F678AE6D316EC3E47 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
 		45D6312E70C81D223D771C09BD2E13EA /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		4A7DDD4A7CE0636458E013320B3DCFC2 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		51B188BF04ACB58FBA6FD5684DFB5B8E /* ZKNSafeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNSafeKit-umbrella.h"; sourceTree = "<group>"; };
+		4C3FF5349A735D479F8529937F19BE3F /* NSUserDefaults+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Safe.h"; sourceTree = "<group>"; };
+		4DC4CFA78FD4D51779BF71258959A2DE /* ZKNSafeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNSafeKit-umbrella.h"; sourceTree = "<group>"; };
 		51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
 		53D6B85B005BD94C70A2CB80F9F5133C /* Pods-ZKNSafeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKNSafeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -426,17 +349,20 @@
 		58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		583CA29EF44AE0EFF1D15E020434C117 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
+		5D24CAB680C23EB6A17D1E9A557D2CAA /* NSMutableData+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Safe.h"; sourceTree = "<group>"; };
 		5E61F0C06E6807EE9DB324F266909BED /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		5FD09D2F5CFD7E518249B83EC1DFD191 /* NSUserDefaults+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Safe.m"; sourceTree = "<group>"; };
+		60D3A93CB3E10F7A0BB9ED40BFA90BE8 /* NSObject+SafeSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeSwizzle.m"; sourceTree = "<group>"; };
 		612DFA52478D8CE9C4866818C95C29E9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		646BB959D0915A702E37F176B68E67BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		671748C25469254D5FC599BE5642B248 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
-		671838E1856FC9D853B5E84B834D6CF8 /* ZKNSafeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNSafeKit-prefix.pch"; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		67874FAF22E123BEC8BAB08F73110FB9 /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
+		70485A91482BC9F753AF52746DEBB0D0 /* NSObject+KVOSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOSafe.m"; sourceTree = "<group>"; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
@@ -446,22 +372,30 @@
 		758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
+		77D72E438EE0DA70B0037377721AC222 /* NSCache+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCache+Safe.h"; sourceTree = "<group>"; };
 		7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
-		7EBB72392425E84A633D09F973E7DAC5 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C26F7F2FABCB1DC01F3BB6C57612B1A /* NSData+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Safe.h"; sourceTree = "<group>"; };
+		7EBB72392425E84A633D09F973E7DAC5 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		7F5D1A0E9BD4DDFBC87E078DEC833A16 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		8383B75C104F3A0BDC396058C14ED907 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
+		844B3BF7FE5A9DF22038938F22DD2DCA /* NSSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+Safe.h"; sourceTree = "<group>"; };
+		87E9F5FAFE7E974B63EAFF194BE471F0 /* NSOrderedSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+Safe.m"; sourceTree = "<group>"; };
+		885675BB1EBA7831204027423E0A481D /* NSObject+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Safe.m"; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		8E75B1B3038B3A5C5DB7DF669CB9C657 /* ZKNSafeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKNSafeKit.xcconfig; sourceTree = "<group>"; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
-		920D12654F1F7143CCC13CA2D0781848 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94161AF02B2AA49C111AFFEA0C2FA8DF /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
 		959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
+		95DD14885D4292E6CBA62B2989E2614C /* NSArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		9721D5CE05AFED0D761638B24A7674D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		98FBC29A4F161543D552645993D2895C /* Pods-ZKNSafeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKNSafeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		99441914515CB8927669D500A12A9C7F /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
@@ -469,17 +403,22 @@
 		9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		9B773363E14D48CC0643E54BB56C13D3 /* Pods-ZKNSafeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKNSafeKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
+		9DB3A8015FF2D056481E21BC0C8C9EA7 /* NSObject+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Safe.h"; sourceTree = "<group>"; };
 		9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
-		A039B32412170A158BE4314DDCD3BAE6 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF613D25D2AC8AE258518E21E468BAA /* NSMutableAttributedString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Safe.m"; sourceTree = "<group>"; };
+		9EF8D6A63396278C83662A4A773E6E6E /* NSString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
+		A039B32412170A158BE4314DDCD3BAE6 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A198AEC2211F9BDBB1269E29D7BB0AAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
+		A72CCF0756EA516FE333863115C47BBA /* LSSafeProtector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSSafeProtector.m; sourceTree = "<group>"; };
 		A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		AA17E4F390E426322A134BCF0FDD4886 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		B00ABD71BE2BFE5933F788B0C4A7B8F0 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		B064DA4B55649A7CECB7ABEE0B8577B6 /* NSArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		B39C25EB3A17CE373B7E59D3A2F0A503 /* Pods-ZKNSafeKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKNSafeKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -488,9 +427,11 @@
 		B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		B6D4C4C645F65B061AFBD9E1426A276D /* Pods-ZKNSafeKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKNSafeKit_Example-resources.sh"; sourceTree = "<group>"; };
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		BC2F5B284C53C0B42CBC5E3E755483F2 /* NSAttributedString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Safe.m"; sourceTree = "<group>"; };
 		BEAF40CBB0832305B4851800AF697126 /* Pods-ZKNSafeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZKNSafeKit_Example.modulemap"; sourceTree = "<group>"; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
+		BFA0889B63F7100BB8ABCC99C6EC17A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		C05766773F3486DB691312614EA1317C /* Pods-ZKNSafeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKNSafeKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
@@ -498,15 +439,19 @@
 		C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
+		C458A2537DAB4E0FAD7CE8EF04289537 /* NSCache+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCache+Safe.m"; sourceTree = "<group>"; };
 		C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		C58F36BB20C86059C6EEB15CF3D4291C /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
-		C87C43F77A43C559973A9A7D8606C004 /* ZKNSafeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKNSafeKit.xcconfig; sourceTree = "<group>"; };
 		C93D23F4DB7569CC800036F3F8FAFE2E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD28C730B51B0E0B0C3616FEC1ED8871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CD2F81BBAD0D88C7A1B209A58F4BE0CA /* NSDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		CFC4F8FABAC75EE6E436DDCAC1B61073 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE804E22B5FF80CCD570E381179BB9B6 /* NSObject+KVOSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOSafe.h"; sourceTree = "<group>"; };
+		CEA5CFB76194C27A54D20B3447EC999E /* LSSafeProtectorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSSafeProtectorDefine.h; sourceTree = "<group>"; };
+		CFD33884CF0AD312224F38AF6A41F72A /* NSOrderedSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+Safe.h"; sourceTree = "<group>"; };
 		D148E142A756A0CD8BA055B657862814 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		D15181A2A90AA8A9F24D97664729A1B2 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		D182CF13D4DB728DAAD9786E7E8143B2 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
@@ -516,24 +461,30 @@
 		D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		D63F50F23D02055A4562FE06D59928DE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		D930E29E1AF6D38AD06D157B3BBDA833 /* ZKNSafeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKNSafeKit-dummy.m"; sourceTree = "<group>"; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
+		DAD44D9A34789385F4DC3685213DE5AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD6E6C6CD2E4105AE9595FA4CC6137C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		DBA05ECD9D20490784C994252B7A8C5F /* Pods-ZKNSafeKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKNSafeKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DBF7C2722DDE8BA9FAE98BC2401FC90D /* NSString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
 		DC79F06D6DDC36042196CC91A87371CB /* Pods-ZKNSafeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKNSafeKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DE18C2403E64DCA8BE44A08974908064 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDA29E990BC401BE854AA8B45BF1338 /* NSObject+SafeSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeSwizzle.h"; sourceTree = "<group>"; };
+		DE18C2403E64DCA8BE44A08974908064 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE72939AFD48FEB897CD91FFD6FE8411 /* Pods-ZKNSafeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKNSafeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		DF9B05DC933B3D09A820B28C119AA255 /* NSMutableSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+Safe.h"; sourceTree = "<group>"; };
 		DFB2BD3CE3DEFC13E05BC648CDA0AB66 /* Pods-ZKNSafeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKNSafeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D3B7139529C87E6987772A91BFF3EF /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		E3C420A50644FEC1E4088D2A21B69600 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AA6FD82C8B1F23D92ACC1E1F51B689 /* NSData+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Safe.m"; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
-		E6C60A4BAE731288B4EA33A2FC1101D3 /* ZKNSafeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKNSafeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8ACC48A644FB4252EFD06820CA5EAAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C60A4BAE731288B4EA33A2FC1101D3 /* ZKNSafeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKNSafeKit.framework; path = ZKNSafeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F7D872B6A95ED0EE57939F3CED1ABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
+		F17F24A6C8A9B5DCD2537BB73763C897 /* NSMutableOrderedSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+Safe.m"; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F60586B18690E115C6DB51E17F0AF264 /* Pods-ZKNSafeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKNSafeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
@@ -545,6 +496,7 @@
 		FC9C003C0258CB020DE6FAF4642F7146 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
+		FE0C0F99CFD077BE19615AB0496B19FD /* NSNotificationCenter+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Safe.h"; sourceTree = "<group>"; };
 		FF0C9956BE8A35C6BEC275444CC910BD /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -617,91 +569,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041796042237A7C4008DA6CF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0417960C2237A874008DA6CF /* SafeProtector */,
-				041796092237A7C4008DA6CF /* .gitkeep */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		0417960C2237A874008DA6CF /* SafeProtector */ = {
-			isa = PBXGroup;
-			children = (
-				0417960D2237A874008DA6CF /* Core */,
-				041796112237A874008DA6CF /* MRC */,
-				041796142237A874008DA6CF /* Foundation */,
-			);
-			path = SafeProtector;
-			sourceTree = "<group>";
-		};
-		0417960D2237A874008DA6CF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0417960E2237A874008DA6CF /* LSSafeProtector.m */,
-				0417960F2237A874008DA6CF /* LSSafeProtector.h */,
-				041796102237A874008DA6CF /* LSSafeProtectorDefine.h */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		041796112237A874008DA6CF /* MRC */ = {
-			isa = PBXGroup;
-			children = (
-				041796122237A874008DA6CF /* NSMutableArray+MRCSafe.m */,
-				041796132237A874008DA6CF /* NSMutableArray+MRCSafe.h */,
-			);
-			path = MRC;
-			sourceTree = "<group>";
-		};
-		041796142237A874008DA6CF /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				041796152237A874008DA6CF /* NSSet+Safe.m */,
-				041796162237A874008DA6CF /* NSOrderedSet+Safe.m */,
-				041796172237A874008DA6CF /* NSUserDefaults+Safe.h */,
-				041796182237A874008DA6CF /* NSCache+Safe.m */,
-				041796192237A874008DA6CF /* NSObject+Safe.m */,
-				0417961A2237A874008DA6CF /* NSMutableOrderedSet+Safe.h */,
-				0417961B2237A874008DA6CF /* NSMutableString+Safe.h */,
-				0417961C2237A874008DA6CF /* NSMutableArray+Safe.m */,
-				0417961D2237A874008DA6CF /* NSNotificationCenter+Safe.h */,
-				0417961E2237A874008DA6CF /* NSString+Safe.m */,
-				0417961F2237A874008DA6CF /* NSDictionary+Safe.h */,
-				041796202237A874008DA6CF /* NSMutableAttributedString+Safe.m */,
-				041796212237A874008DA6CF /* NSMutableDictionary+Safe.m */,
-				041796222237A874008DA6CF /* NSData+Safe.m */,
-				041796232237A874008DA6CF /* NSMutableData+Safe.h */,
-				041796242237A874008DA6CF /* NSAttributedString+Safe.m */,
-				041796252237A874008DA6CF /* NSArray+Safe.h */,
-				041796262237A874008DA6CF /* NSMutableSet+Safe.m */,
-				041796272237A874008DA6CF /* NSObject+SafeSwizzle.h */,
-				041796282237A874008DA6CF /* NSObject+KVOSafe.m */,
-				041796292237A874008DA6CF /* NSMutableOrderedSet+Safe.m */,
-				0417962A2237A874008DA6CF /* NSObject+Safe.h */,
-				0417962B2237A874008DA6CF /* NSCache+Safe.h */,
-				0417962C2237A874008DA6CF /* NSOrderedSet+Safe.h */,
-				0417962D2237A874008DA6CF /* NSUserDefaults+Safe.m */,
-				0417962E2237A874008DA6CF /* NSSet+Safe.h */,
-				0417962F2237A874008DA6CF /* NSString+Safe.h */,
-				041796302237A874008DA6CF /* NSNotificationCenter+Safe.m */,
-				041796312237A874008DA6CF /* NSMutableArray+Safe.h */,
-				041796322237A874008DA6CF /* NSMutableString+Safe.m */,
-				041796332237A874008DA6CF /* NSMutableDictionary+Safe.h */,
-				041796342237A874008DA6CF /* NSMutableAttributedString+Safe.h */,
-				041796352237A874008DA6CF /* NSDictionary+Safe.m */,
-				041796362237A874008DA6CF /* NSObject+KVOSafe.h */,
-				041796372237A874008DA6CF /* NSObject+SafeSwizzle.m */,
-				041796382237A874008DA6CF /* NSMutableSet+Safe.h */,
-				041796392237A874008DA6CF /* NSArray+Safe.m */,
-				0417963A2237A874008DA6CF /* NSAttributedString+Safe.h */,
-				0417963B2237A874008DA6CF /* NSMutableData+Safe.m */,
-				0417963C2237A874008DA6CF /* NSData+Safe.h */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
 		08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,14 +600,72 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E9E9B9AAB3C72F269BE1E353A9E3541 /* Pod */ = {
+		1B70CED14E182B1249AC39A292133A1E /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				920D12654F1F7143CCC13CA2D0781848 /* LICENSE */,
-				CFC4F8FABAC75EE6E436DDCAC1B61073 /* README.md */,
-				361482D9BD5A2FCA82F485A81D839734 /* ZKNSafeKit.podspec */,
+				B064DA4B55649A7CECB7ABEE0B8577B6 /* NSArray+Safe.h */,
+				95DD14885D4292E6CBA62B2989E2614C /* NSArray+Safe.m */,
+				1268E708D09CEB7CD6ED6837824B8921 /* NSAttributedString+Safe.h */,
+				BC2F5B284C53C0B42CBC5E3E755483F2 /* NSAttributedString+Safe.m */,
+				77D72E438EE0DA70B0037377721AC222 /* NSCache+Safe.h */,
+				C458A2537DAB4E0FAD7CE8EF04289537 /* NSCache+Safe.m */,
+				7C26F7F2FABCB1DC01F3BB6C57612B1A /* NSData+Safe.h */,
+				E4AA6FD82C8B1F23D92ACC1E1F51B689 /* NSData+Safe.m */,
+				357C686C9EB8DA6594701254B9C26832 /* NSDictionary+Safe.h */,
+				CD2F81BBAD0D88C7A1B209A58F4BE0CA /* NSDictionary+Safe.m */,
+				238995DF1D754899B12396625D57513C /* NSMutableArray+Safe.h */,
+				19A58A7F04AFEADBE72DC797C833EF4B /* NSMutableArray+Safe.m */,
+				1A406AB0BA12EF10F507A6F585B1509C /* NSMutableAttributedString+Safe.h */,
+				9DF613D25D2AC8AE258518E21E468BAA /* NSMutableAttributedString+Safe.m */,
+				5D24CAB680C23EB6A17D1E9A557D2CAA /* NSMutableData+Safe.h */,
+				1F8E875E386FB74BA8FECF4EAC207F07 /* NSMutableData+Safe.m */,
+				1BD3EB438FDFF98A5EA87097D3ACCF5D /* NSMutableDictionary+Safe.h */,
+				94161AF02B2AA49C111AFFEA0C2FA8DF /* NSMutableDictionary+Safe.m */,
+				25A6201D5F3D57F715D3541375C978E4 /* NSMutableOrderedSet+Safe.h */,
+				F17F24A6C8A9B5DCD2537BB73763C897 /* NSMutableOrderedSet+Safe.m */,
+				DF9B05DC933B3D09A820B28C119AA255 /* NSMutableSet+Safe.h */,
+				2AF43E7D73A3F8FBBEA9964DC60EDD8A /* NSMutableSet+Safe.m */,
+				449E6484EA4FF38F678AE6D316EC3E47 /* NSMutableString+Safe.h */,
+				8383B75C104F3A0BDC396058C14ED907 /* NSMutableString+Safe.m */,
+				FE0C0F99CFD077BE19615AB0496B19FD /* NSNotificationCenter+Safe.h */,
+				3F8F448A05F8449D7C70873792A3A78D /* NSNotificationCenter+Safe.m */,
+				CE804E22B5FF80CCD570E381179BB9B6 /* NSObject+KVOSafe.h */,
+				70485A91482BC9F753AF52746DEBB0D0 /* NSObject+KVOSafe.m */,
+				9DB3A8015FF2D056481E21BC0C8C9EA7 /* NSObject+Safe.h */,
+				885675BB1EBA7831204027423E0A481D /* NSObject+Safe.m */,
+				DDDA29E990BC401BE854AA8B45BF1338 /* NSObject+SafeSwizzle.h */,
+				60D3A93CB3E10F7A0BB9ED40BFA90BE8 /* NSObject+SafeSwizzle.m */,
+				CFD33884CF0AD312224F38AF6A41F72A /* NSOrderedSet+Safe.h */,
+				87E9F5FAFE7E974B63EAFF194BE471F0 /* NSOrderedSet+Safe.m */,
+				844B3BF7FE5A9DF22038938F22DD2DCA /* NSSet+Safe.h */,
+				0DB656534F081D5241975FE9FB2F001B /* NSSet+Safe.m */,
+				DBF7C2722DDE8BA9FAE98BC2401FC90D /* NSString+Safe.h */,
+				9EF8D6A63396278C83662A4A773E6E6E /* NSString+Safe.m */,
+				4C3FF5349A735D479F8529937F19BE3F /* NSUserDefaults+Safe.h */,
+				5FD09D2F5CFD7E518249B83EC1DFD191 /* NSUserDefaults+Safe.m */,
+			);
+			name = Foundation;
+			path = Classes/SafeProtector/Foundation;
+			sourceTree = "<group>";
+		};
+		3BA31F0C0F52FF6F8669658F01683DA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFA0889B63F7100BB8ABCC99C6EC17A4 /* LICENSE */,
+				CD28C730B51B0E0B0C3616FEC1ED8871 /* README.md */,
+				4201EED9669353F1B3213C4300947E06 /* ZKNSafeKit.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4290EF88BCE0D95F289E0C38793CCD6C /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				329F5F44F880EFFD15D7E60AF86D8DFB /* NSMutableArray+MRCSafe.h */,
+				320D4AAD118BA60FD9AE28721C8BCBE4 /* NSMutableArray+MRCSafe.m */,
+			);
+			name = MRC;
+			path = Classes/SafeProtector/MRC;
 			sourceTree = "<group>";
 		};
 		4A0F2AF0BCC7C36AA96B6A2C09A994EF /* Support Files */ = {
@@ -793,6 +718,7 @@
 				DC8A2B6AEF540A32B4208A373BE33C16 /* Support Files */,
 				A5146D344D0BDF4F9705D174EE7D3186 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -874,6 +800,7 @@
 				064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */,
 				DDCAB588EAC951D16C926637A9684152 /* Support Files */,
 			);
+			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -881,12 +808,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C63659462116B041DDB091E8A2915A71 /* Development Pods */,
+				7FC3D3CC445643C5EE0AA8E5F599F011 /* Development Pods */,
 				1922ED2492F2CD5F07BAE0E198724705 /* Frameworks */,
 				08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */,
 				9A4489B4A4EF4F2C8C48C4F30C6B99D6 /* Products */,
 				1490A0E90CFBAC40B24C0677B70AB87E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FC3D3CC445643C5EE0AA8E5F599F011 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD8EAFD2E405AADE9D921E9B8645D2F6 /* ZKNSafeKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9A4489B4A4EF4F2C8C48C4F30C6B99D6 /* Products */ = {
@@ -943,6 +878,20 @@
 			path = "Target Support Files/Pods-ZKNSafeKit_Example";
 			sourceTree = "<group>";
 		};
+		C25DCA9010D09321F417D7FC071B29B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD44D9A34789385F4DC3685213DE5AE /* Info.plist */,
+				298379E602322BD8B32A9AAD6E3AAE2A /* ZKNSafeKit.modulemap */,
+				8E75B1B3038B3A5C5DB7DF669CB9C657 /* ZKNSafeKit.xcconfig */,
+				D930E29E1AF6D38AD06D157B3BBDA833 /* ZKNSafeKit-dummy.m */,
+				2E83791F060ACAA00EB81B7D525DBBA0 /* ZKNSafeKit-prefix.pch */,
+				4DC4CFA78FD4D51779BF71258959A2DE /* ZKNSafeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZKNSafeKit";
+			sourceTree = "<group>";
+		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
 			isa = PBXGroup;
 			children = (
@@ -973,29 +922,8 @@
 				33C35331B5791C85920198E31A6E6396 /* XCTestCase+Specta.m */,
 				4A0F2AF0BCC7C36AA96B6A2C09A994EF /* Support Files */,
 			);
+			name = Specta;
 			path = Specta;
-			sourceTree = "<group>";
-		};
-		C4D5C903C2DE059E229C0B8A168AA02A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8ACC48A644FB4252EFD06820CA5EAAE /* Info.plist */,
-				15710D8194F41FF763BECEE6C1AA567F /* ZKNSafeKit.modulemap */,
-				C87C43F77A43C559973A9A7D8606C004 /* ZKNSafeKit.xcconfig */,
-				2F37361E52EBE2B2B9980475E2730391 /* ZKNSafeKit-dummy.m */,
-				671838E1856FC9D853B5E84B834D6CF8 /* ZKNSafeKit-prefix.pch */,
-				51B188BF04ACB58FBA6FD5684DFB5B8E /* ZKNSafeKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZKNSafeKit";
-			sourceTree = "<group>";
-		};
-		C63659462116B041DDB091E8A2915A71 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DE6875ED03570070F1FE0B687F070C50 /* ZKNSafeKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D444F89BC8BA24BC0761D553BC8F0231 /* Expecta+Snapshots */ = {
@@ -1007,6 +935,7 @@
 				22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */,
 				9D436BD33971C4AB440A4CFDD960EAF3 /* Support Files */,
 			);
+			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -1024,6 +953,19 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		DD8EAFD2E405AADE9D921E9B8645D2F6 /* ZKNSafeKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE9363B0D2CF2B1020813EE0E98C9F98 /* Core */,
+				1B70CED14E182B1249AC39A292133A1E /* Foundation */,
+				4290EF88BCE0D95F289E0C38793CCD6C /* MRC */,
+				3BA31F0C0F52FF6F8669658F01683DA8 /* Pod */,
+				C25DCA9010D09321F417D7FC071B29B2 /* Support Files */,
+			);
+			name = ZKNSafeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		DDCAB588EAC951D16C926637A9684152 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1038,15 +980,15 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		DE6875ED03570070F1FE0B687F070C50 /* ZKNSafeKit */ = {
+		DE9363B0D2CF2B1020813EE0E98C9F98 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				041796042237A7C4008DA6CF /* Classes */,
-				2E9E9B9AAB3C72F269BE1E353A9E3541 /* Pod */,
-				C4D5C903C2DE059E229C0B8A168AA02A /* Support Files */,
+				062CC07DD67F81DE0B25C93168F93013 /* LSSafeProtector.h */,
+				A72CCF0756EA516FE333863115C47BBA /* LSSafeProtector.m */,
+				CEA5CFB76194C27A54D20B3447EC999E /* LSSafeProtectorDefine.h */,
 			);
-			name = ZKNSafeKit;
-			path = ../..;
+			name = Core;
+			path = Classes/SafeProtector/Core;
 			sourceTree = "<group>";
 		};
 		E8FBC94E8894CD530C326FD84068F43E /* Core */ = {
@@ -1077,61 +1019,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041796752237A874008DA6CF /* NSOrderedSet+Safe.h in Headers */,
-				041796512237A874008DA6CF /* NSMutableOrderedSet+Safe.h in Headers */,
-				041796452237A874008DA6CF /* NSMutableArray+MRCSafe.h in Headers */,
-				041796532237A874008DA6CF /* NSMutableString+Safe.h in Headers */,
-				0417967B2237A874008DA6CF /* NSString+Safe.h in Headers */,
-				0417967F2237A874008DA6CF /* NSMutableArray+Safe.h in Headers */,
-				041796632237A874008DA6CF /* NSMutableData+Safe.h in Headers */,
-				0417964B2237A874008DA6CF /* NSUserDefaults+Safe.h in Headers */,
-				041796852237A874008DA6CF /* NSMutableAttributedString+Safe.h in Headers */,
-				041796572237A874008DA6CF /* NSNotificationCenter+Safe.h in Headers */,
 				DC9FC599245DC1C6C7A26AA4AC1457A8 /* Pods-ZKNSafeKit_Example-umbrella.h in Headers */,
-				041796832237A874008DA6CF /* NSMutableDictionary+Safe.h in Headers */,
-				041796412237A874008DA6CF /* LSSafeProtectorDefine.h in Headers */,
-				041796792237A874008DA6CF /* NSSet+Safe.h in Headers */,
-				0417963F2237A874008DA6CF /* LSSafeProtector.h in Headers */,
-				041796732237A874008DA6CF /* NSCache+Safe.h in Headers */,
-				041796952237A875008DA6CF /* NSData+Safe.h in Headers */,
-				0417968D2237A875008DA6CF /* NSMutableSet+Safe.h in Headers */,
-				041796712237A874008DA6CF /* NSObject+Safe.h in Headers */,
-				0417965B2237A874008DA6CF /* NSDictionary+Safe.h in Headers */,
-				041796912237A875008DA6CF /* NSAttributedString+Safe.h in Headers */,
-				0417966B2237A874008DA6CF /* NSObject+SafeSwizzle.h in Headers */,
-				041796892237A874008DA6CF /* NSObject+KVOSafe.h in Headers */,
-				041796672237A874008DA6CF /* NSArray+Safe.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		467AB18B426BD0956A3232586A2426AB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				041796762237A874008DA6CF /* NSOrderedSet+Safe.h in Headers */,
-				041796522237A874008DA6CF /* NSMutableOrderedSet+Safe.h in Headers */,
-				041796462237A874008DA6CF /* NSMutableArray+MRCSafe.h in Headers */,
-				041796542237A874008DA6CF /* NSMutableString+Safe.h in Headers */,
-				0417967C2237A874008DA6CF /* NSString+Safe.h in Headers */,
-				041796802237A874008DA6CF /* NSMutableArray+Safe.h in Headers */,
-				041796642237A874008DA6CF /* NSMutableData+Safe.h in Headers */,
-				0417964C2237A874008DA6CF /* NSUserDefaults+Safe.h in Headers */,
-				041796862237A874008DA6CF /* NSMutableAttributedString+Safe.h in Headers */,
-				041796582237A874008DA6CF /* NSNotificationCenter+Safe.h in Headers */,
-				0FFF5AD7F3D2C5DF72CCBB9784A78F41 /* ZKNSafeKit-umbrella.h in Headers */,
-				041796842237A874008DA6CF /* NSMutableDictionary+Safe.h in Headers */,
-				041796422237A874008DA6CF /* LSSafeProtectorDefine.h in Headers */,
-				0417967A2237A874008DA6CF /* NSSet+Safe.h in Headers */,
-				041796402237A874008DA6CF /* LSSafeProtector.h in Headers */,
-				041796742237A874008DA6CF /* NSCache+Safe.h in Headers */,
-				041796962237A875008DA6CF /* NSData+Safe.h in Headers */,
-				0417968E2237A875008DA6CF /* NSMutableSet+Safe.h in Headers */,
-				041796722237A874008DA6CF /* NSObject+Safe.h in Headers */,
-				0417965C2237A874008DA6CF /* NSDictionary+Safe.h in Headers */,
-				041796922237A875008DA6CF /* NSAttributedString+Safe.h in Headers */,
-				0417966C2237A874008DA6CF /* NSObject+SafeSwizzle.h in Headers */,
-				0417968A2237A874008DA6CF /* NSObject+KVOSafe.h in Headers */,
-				041796682237A874008DA6CF /* NSArray+Safe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,6 +1028,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E67BCDB6B8291FE0EDB183FEB68F9B2 /* Pods-ZKNSafeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3981A30DE111A55C41175654E3B7AA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC4EF389C423E5457EC0E4A644A6DA2 /* LSSafeProtector.h in Headers */,
+				C7DC4763A04739FB14DFA595EE0C4E6B /* LSSafeProtectorDefine.h in Headers */,
+				F59EACDB19FDF13048312ABDA584F415 /* NSArray+Safe.h in Headers */,
+				68AA21839015D3EA502D5FB3AA887BC3 /* NSAttributedString+Safe.h in Headers */,
+				B803DC6F9F7E030045DFA3E54B448E6D /* NSCache+Safe.h in Headers */,
+				8B687B31303350BF35C50AFB46E73A64 /* NSData+Safe.h in Headers */,
+				13B67378EACB615102AB59D3AB58A546 /* NSDictionary+Safe.h in Headers */,
+				F35BB8971200A33E01F104931DE4DA9B /* NSMutableArray+MRCSafe.h in Headers */,
+				31E1FE777CC6775814626000D182D4F1 /* NSMutableArray+Safe.h in Headers */,
+				0E8F741269DE066995E40D4ED0A147AF /* NSMutableAttributedString+Safe.h in Headers */,
+				A358CB7CD021B0465D016AD05617BBE7 /* NSMutableData+Safe.h in Headers */,
+				162B3B379A9DD903A5FFBD55C98112F0 /* NSMutableDictionary+Safe.h in Headers */,
+				CCF7D531500FFF8EB779B549E2F3AB8E /* NSMutableOrderedSet+Safe.h in Headers */,
+				9775FAB242E9761A9927B93E3C817E14 /* NSMutableSet+Safe.h in Headers */,
+				3AF2C534EC07A7A22AFE287AA52202FD /* NSMutableString+Safe.h in Headers */,
+				F9F689E0D902E6029C0A1B6AA780433D /* NSNotificationCenter+Safe.h in Headers */,
+				2E6923A6AE49C0F33D31278C7D8E35A3 /* NSObject+KVOSafe.h in Headers */,
+				ADA6D200F25786B7D5209C57621BD2F4 /* NSObject+Safe.h in Headers */,
+				F18A1A9B10F5E68ABC64CDFA9FEBD663 /* NSObject+SafeSwizzle.h in Headers */,
+				0E7CA1B88DE9E607EA790E4A52113330 /* NSOrderedSet+Safe.h in Headers */,
+				0E284D61D966F3A83568447C57843296 /* NSSet+Safe.h in Headers */,
+				2DC6CC93C305C08215AC9EB233482C3D /* NSString+Safe.h in Headers */,
+				CD75B8EC37ECB8A18937C984CACD987E /* NSUserDefaults+Safe.h in Headers */,
+				61BA4E9E1A414FA5BD7466F4CE109ECF /* ZKNSafeKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,8 +1183,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9D7BB5A9A8F328ABC836956A8242C8 /* Build configuration list for PBXNativeTarget "ZKNSafeKit" */;
 			buildPhases = (
-				467AB18B426BD0956A3232586A2426AB /* Headers */,
-				0DE20BD9324A7325C4A99E1F69506AFE /* Sources */,
+				C3981A30DE111A55C41175654E3B7AA9 /* Headers */,
+				9C7980EF8125336EA976C50F95130ED1 /* Sources */,
 				8871B2E660051A564AAD24D3D6F419BA /* Frameworks */,
 				505B3AB8B72A472643731987FB277625 /* Resources */,
 			);
@@ -1413,7 +1332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0417960A2237A7C4008DA6CF /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1428,7 +1346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0417960B2237A7C4008DA6CF /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1463,36 +1380,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DE20BD9324A7325C4A99E1F69506AFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				041796782237A874008DA6CF /* NSUserDefaults+Safe.m in Sources */,
-				0417964E2237A874008DA6CF /* NSCache+Safe.m in Sources */,
-				041796622237A874008DA6CF /* NSData+Safe.m in Sources */,
-				041796882237A874008DA6CF /* NSDictionary+Safe.m in Sources */,
-				0417966E2237A874008DA6CF /* NSObject+KVOSafe.m in Sources */,
-				0417964A2237A874008DA6CF /* NSOrderedSet+Safe.m in Sources */,
-				041796502237A874008DA6CF /* NSObject+Safe.m in Sources */,
-				041796942237A875008DA6CF /* NSMutableData+Safe.m in Sources */,
-				041796902237A875008DA6CF /* NSArray+Safe.m in Sources */,
-				041796442237A874008DA6CF /* NSMutableArray+MRCSafe.m in Sources */,
-				0417965A2237A874008DA6CF /* NSString+Safe.m in Sources */,
-				041796562237A874008DA6CF /* NSMutableArray+Safe.m in Sources */,
-				0417967E2237A874008DA6CF /* NSNotificationCenter+Safe.m in Sources */,
-				0417966A2237A874008DA6CF /* NSMutableSet+Safe.m in Sources */,
-				0417963E2237A874008DA6CF /* LSSafeProtector.m in Sources */,
-				041796602237A874008DA6CF /* NSMutableDictionary+Safe.m in Sources */,
-				041796702237A874008DA6CF /* NSMutableOrderedSet+Safe.m in Sources */,
-				041796662237A874008DA6CF /* NSAttributedString+Safe.m in Sources */,
-				041796482237A874008DA6CF /* NSSet+Safe.m in Sources */,
-				0417968C2237A874008DA6CF /* NSObject+SafeSwizzle.m in Sources */,
-				0417965E2237A874008DA6CF /* NSMutableAttributedString+Safe.m in Sources */,
-				041796822237A874008DA6CF /* NSMutableString+Safe.m in Sources */,
-				6EEFA97D555C4F0BEF6812C6861AE26C /* ZKNSafeKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		323BF684A16F106E07FA74DC501AC6B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1507,29 +1394,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041796772237A874008DA6CF /* NSUserDefaults+Safe.m in Sources */,
-				0417964D2237A874008DA6CF /* NSCache+Safe.m in Sources */,
-				041796612237A874008DA6CF /* NSData+Safe.m in Sources */,
-				041796872237A874008DA6CF /* NSDictionary+Safe.m in Sources */,
-				0417966D2237A874008DA6CF /* NSObject+KVOSafe.m in Sources */,
-				041796492237A874008DA6CF /* NSOrderedSet+Safe.m in Sources */,
-				0417964F2237A874008DA6CF /* NSObject+Safe.m in Sources */,
-				041796932237A875008DA6CF /* NSMutableData+Safe.m in Sources */,
-				0417968F2237A875008DA6CF /* NSArray+Safe.m in Sources */,
-				041796432237A874008DA6CF /* NSMutableArray+MRCSafe.m in Sources */,
-				041796592237A874008DA6CF /* NSString+Safe.m in Sources */,
-				041796552237A874008DA6CF /* NSMutableArray+Safe.m in Sources */,
-				0417967D2237A874008DA6CF /* NSNotificationCenter+Safe.m in Sources */,
-				041796692237A874008DA6CF /* NSMutableSet+Safe.m in Sources */,
-				0417963D2237A874008DA6CF /* LSSafeProtector.m in Sources */,
-				0417965F2237A874008DA6CF /* NSMutableDictionary+Safe.m in Sources */,
-				0417966F2237A874008DA6CF /* NSMutableOrderedSet+Safe.m in Sources */,
-				041796652237A874008DA6CF /* NSAttributedString+Safe.m in Sources */,
-				041796472237A874008DA6CF /* NSSet+Safe.m in Sources */,
-				0417968B2237A874008DA6CF /* NSObject+SafeSwizzle.m in Sources */,
-				0417965D2237A874008DA6CF /* NSMutableAttributedString+Safe.m in Sources */,
-				041796812237A874008DA6CF /* NSMutableString+Safe.m in Sources */,
 				8BCD160FA5BCE765080AED37012D72F5 /* Pods-ZKNSafeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7980EF8125336EA976C50F95130ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015557D4FB1A74A8EEABF8F5063EC9A5 /* LSSafeProtector.m in Sources */,
+				F14AC81490D53F6626A3565310477A99 /* NSArray+Safe.m in Sources */,
+				A0003F81FFC9834B84EE95BC4E4B6192 /* NSAttributedString+Safe.m in Sources */,
+				B50FB8420A5549ED7430C69C2C5FB3C0 /* NSCache+Safe.m in Sources */,
+				B4E3939AB7A7B8A3EFD21E83006C30A4 /* NSData+Safe.m in Sources */,
+				E3C1A6F5B4A03592D387F377CA45AFC5 /* NSDictionary+Safe.m in Sources */,
+				E10726524A13AF6434984E7068F11897 /* NSMutableArray+MRCSafe.m in Sources */,
+				4D27FAC690645A9419ECD762E2F29A6E /* NSMutableArray+Safe.m in Sources */,
+				735174B2A121A8702FF1E65A77989B1F /* NSMutableAttributedString+Safe.m in Sources */,
+				B7C1A20E6E89585429695E3E0E1D8D73 /* NSMutableData+Safe.m in Sources */,
+				BB503F7F8850BA2791699C1A9B18465C /* NSMutableDictionary+Safe.m in Sources */,
+				5E52104EDDDB4CB47D34E5682B901448 /* NSMutableOrderedSet+Safe.m in Sources */,
+				1263D4201D9449CAC966164013833ED3 /* NSMutableSet+Safe.m in Sources */,
+				2724594906EAE129D565E9EE15716434 /* NSMutableString+Safe.m in Sources */,
+				F2220C95DBBC7CD328870FB20C9721E5 /* NSNotificationCenter+Safe.m in Sources */,
+				0C44DE5086913DD326C51662FC8C143D /* NSObject+KVOSafe.m in Sources */,
+				B4855D00243BAB6EE575F4A8A81EBD02 /* NSObject+Safe.m in Sources */,
+				7314FE77D9048848E030F48F18FAD127 /* NSObject+SafeSwizzle.m in Sources */,
+				DC83F58241CE4FF9225CCD1D36F5402D /* NSOrderedSet+Safe.m in Sources */,
+				73D91C94D0120E75B0B0CAC2B066CD6C /* NSSet+Safe.m in Sources */,
+				ACEC48FEB5CF151011DDB5062FACC60E /* NSString+Safe.m in Sources */,
+				DC51A65D3C8E8B18343234095D67E901 /* NSUserDefaults+Safe.m in Sources */,
+				31FA5A719847E7E6BD5113F985BF3D87 /* ZKNSafeKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1835,7 +1730,7 @@
 		};
 		720690FD34A0A0FE6902BA681FE901EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C87C43F77A43C559973A9A7D8606C004 /* ZKNSafeKit.xcconfig */;
+			baseConfigurationReference = 8E75B1B3038B3A5C5DB7DF669CB9C657 /* ZKNSafeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1865,7 +1760,7 @@
 		};
 		78AD4FCE0DA59449DD0506E1627A7C77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C87C43F77A43C559973A9A7D8606C004 /* ZKNSafeKit.xcconfig */;
+			baseConfigurationReference = 8E75B1B3038B3A5C5DB7DF669CB9C657 /* ZKNSafeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1949,7 +1844,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

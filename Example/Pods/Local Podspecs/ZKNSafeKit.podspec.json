@@ -1,6 +1,6 @@
 {
   "name": "ZKNSafeKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of ZKNSafeKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhangkn/ZKNSafeKit",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/zhangkn/ZKNSafeKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZKNSafeKit/Classes/**/*"
+  "source_files": "Classes/**/*"
 }
