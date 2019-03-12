@@ -28,3 +28,17 @@ zhangkn, 929118967@qq.com
 
 ZKNSafeKit is available under the MIT license. See the LICENSE file for more info.
 # ZKNSafeKit
+```
+kngit 0.0.2
+git tag -a 0.0.2 -m "0.0.2"
+git push origin --tags
+
+pod lib lint ZKNSafeKit.podspec
+
+pod trunk push  ZKNSafeKit.podspec
+
+ ```
+ # see also
+ 
+ * [getting_setup_with_trunk ](https://kunnan.github.io/2017/03/08/getting_setup_with_trunk/)
+ 
