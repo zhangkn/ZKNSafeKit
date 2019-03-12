@@ -33,12 +33,17 @@ kngit 0.0.2
 git tag -a 0.0.2 -m "0.0.2"
 git push origin --tags
 
-pod lib lint ZKNSafeKit.podspec
+pod lib lint ZKNSafeKit.podspec --allow-warnings
 
-pod trunk push  ZKNSafeKit.podspec
+pod trunk push  ZKNSafeKit.podspec --allow-warnings
 
  ```
  # see also
  
  * [getting_setup_with_trunk ](https://kunnan.github.io/2017/03/08/getting_setup_with_trunk/)
+```
+1、pod setup #在终端更新本地pods仓库信息
+2、如果想在测试工程验证lib,则必须保证ZKNSafeKit-umbrella.h 头文件自动加入了头文件（提交一个版本到trunk）
+
+```
  
