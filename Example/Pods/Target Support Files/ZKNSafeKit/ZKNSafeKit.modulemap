@@ -1,0 +1,6 @@
+framework module ZKNSafeKit {
+  umbrella header "ZKNSafeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

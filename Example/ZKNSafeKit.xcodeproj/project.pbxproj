@@ -38,12 +38,12 @@
 
 /* Begin PBXFileReference section */
 		2BDF42F0CAE789F2ECDF95A2 /* Pods_ZKNSafeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKNSafeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30A88720864438822E0EC562 /* ZKNSafeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZKNSafeKit.podspec; path = ../ZKNSafeKit.podspec; sourceTree = "<group>"; };
+		30A88720864438822E0EC562 /* ZKNSafeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZKNSafeKit.podspec; path = ../ZKNSafeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		32921EF492F06C066E9395FF /* Pods-ZKNSafeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNSafeKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNSafeKit_Tests/Pods-ZKNSafeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		354272BF86FC1E04C45DD572 /* Pods_ZKNSafeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKNSafeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3650C9164376B9A6721088A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3650C9164376B9A6721088A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3AA6B2F9B7FD83BE2A982BD0 /* Pods-ZKNSafeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNSafeKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNSafeKit_Tests/Pods-ZKNSafeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E6A43F377A797250CCE2A53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E6A43F377A797250CCE2A53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		41C40B06EC586BE4C06E550C /* Pods-ZKNSafeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNSafeKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNSafeKit_Example/Pods-ZKNSafeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		428C20121FD59097D671F2A5 /* Pods-ZKNSafeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNSafeKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNSafeKit_Example/Pods-ZKNSafeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZKNSafeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKNSafeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhangkn;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A7BAT6XFJ4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -526,6 +529,7 @@
 			baseConfigurationReference = 41C40B06EC586BE4C06E550C /* Pods-ZKNSafeKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZKNSafeKit/ZKNSafeKit-Prefix.pch";
 				INFOPLIST_FILE = "ZKNSafeKit/ZKNSafeKit-Info.plist";
@@ -541,6 +545,7 @@
 			baseConfigurationReference = 428C20121FD59097D671F2A5 /* Pods-ZKNSafeKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A7BAT6XFJ4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZKNSafeKit/ZKNSafeKit-Prefix.pch";
 				INFOPLIST_FILE = "ZKNSafeKit/ZKNSafeKit-Info.plist";
