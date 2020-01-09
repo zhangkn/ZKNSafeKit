@@ -81,24 +81,24 @@
 - (NSString *)safe_stringByAppendingString:(NSString *)aString
 {
     // 方案二：使用 try  catch 实现
-    NSString *subString = nil;
-    @try {
-        subString = [self safe_stringByAppendingString:aString];
-    }
-    @catch (NSException *exception) {
-        LSSafeProtectionCrashLog(exception,LSSafeProtectorCrashTypeNSStirng);
-        subString = self;
-    }
-    @finally {
-        return subString;
-    }
+//    NSString *subString = nil;
+//    @try {
+//        subString = [self safe_stringByAppendingString:aString];
+//    }
+//    @catch (NSException *exception) {
+//        LSSafeProtectionCrashLog(exception,LSSafeProtectorCrashTypeNSStirng);
+//        subString = self;
+//    }
+//    @finally {
+//        return subString;
+//    }
 
 // 最原始的方案一：
-//    if(aString == nil){
-//        return self;
-//    }
+    if(aString == nil){
+        return self;
+    }
 //    // 因为方法的实现已经交换了，因此执行safe_stringByAppendingString方法，本质之行的是stringByAppendingString的IMP
-//    return [self safe_stringByAppendingString:aString];
+    return [self safe_stringByAppendingString:aString];
 }
 
 
